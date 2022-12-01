@@ -10,6 +10,6 @@ Handling connection for 8001
 Port: 8001
 {
   "prediction": [
-    20.2774313537314
+    20.35373177134412
   ]
 }
