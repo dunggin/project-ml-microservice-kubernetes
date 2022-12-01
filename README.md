@@ -1,6 +1,6 @@
 Project ml microservice kubernetes
 
-[![CircleCI](https://circleci.com/gh/dunggin/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://github.com/dunggin/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://circleci.com/gh/dunggin/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/dunggin/project-ml-microservice-kubernetes/?branch=main)
 
 ## Project Overview
 
