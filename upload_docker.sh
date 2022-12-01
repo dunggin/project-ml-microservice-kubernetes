@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 # This file tags and uploads an image to Docker Hub
 
@@ -6,6 +7,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=dunggin/project-ml-microservice-kubernetes
 
 # Step 2:  
 # Authenticate & tag
@@ -13,3 +15,4 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath:latest
