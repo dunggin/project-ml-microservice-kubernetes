@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+pod/udacity1 created
+NAME            READY   STATUS    RESTARTS   AGE
+udacity1   1/1     Running   0          91s
+Forwarding from 127.0.0.1:8001 -> 80
+Forwarding from [::1]:8001 -> 80
+Handling connection for 8001
+Handling connection for 8001
+Handling connection for 8001
+./make_prediction.sh
+Port: 8001
+{
+  "prediction": [
+    20.2774313537314
+  ]
+}

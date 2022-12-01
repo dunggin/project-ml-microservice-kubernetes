@@ -4,10 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t dunggin/project-ml-microservice-kubernetes .
+docker build -t dunggin/project-ml-microservice-kubernetes:v2 .
 # Step 2: 
 # List docker images
 docker ps
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 dunggin/project-ml-microservice-kubernetes
+docker run -p 8001:80 dunggin/project-ml-microservice-kubernetes:v2
